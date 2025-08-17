@@ -5,12 +5,12 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100">
       {/* Navbar */}
       <Navbar />
 
       {/* Main Content */}
-      <main className="flex-1 container mx-auto px-4 py-6">
+      <main className="flex flex-col items-center justify-center w-full max-w-3xl px-4 space-y-6">
         <SearchBar />
         <RecipeList />
       </main>
